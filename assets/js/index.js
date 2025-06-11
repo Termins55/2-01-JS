@@ -59,6 +59,50 @@ let num5 = 1;
 num5--;
 console.log(num5);
 
+// * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+// Завдання на введення/виведення (вводити з допомогою prompt, виводити з допомогою alert або console.log або на сторінку):
+
+// 1) Запитати число у користувача, піднести його до квадрату і вивести результат.
+
+const x = Number(prompt('Введіть число:'));
+console.log(Math.pow(x, 2));
+
+// 2) Вивести середнє арифметичне двох чисел. Числа запитувати у користувача.
+
+const firstNumber = Number(prompt('Введіть число:'));
+const secondNumber = Number(prompt('Введіть число:'));
+const arithmeticMean = (firstNumber + secondNumber) / 2;
+console.log(arithmeticMean);
+
+// 3) Перевести кількість хвилин на секунди та вивести результат. Число хвилин запитувати у користувача. 
+
+let firstMinuts = Number(prompt('Введіть к-ть хвилин:'));
+firstMinuts *= 60;
+console.log(firstMinuts);
+
+// 4) Створіть змінну greeting зі значенням 'Hello,' і оголосіть змінну userName. Запитайте ім'я користувача та внесіть це значення у змінну userName. Виведіть повідомлення з привітанням, наприклад, 'Hello, Vasya!'. (згадайте про конкатенацію). 
+// *Додайте в розмітку отриманий рядок в елемент p.
+
+const greeting = 'Hello ';
+const userName = (prompt('Введіть імʼя'));
+const message = greeting + userName + '!';
+console.log(message);
+alert(message);
+
+// Далі знайшов інформацію про те що "*Додайте в розмітку отриманий рядок в елемент p."
+// робиться за допомогою DOM (Document Object Model), а це 37 лекція вирішив що буде не честно нагуглить відповідь не знаючи її.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
