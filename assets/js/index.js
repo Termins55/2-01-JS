@@ -35,7 +35,29 @@ console.log('typeof "100":', typeof "100");
 // num = num + 1;
 // num = num – 1;
 
+let num = 1;
+num += 11;
+console.log(num);
 
+let num1 = 1;
+num1 -= 11;
+console.log(num1);
+
+let num2 = 1;
+num2 *= 11;
+console.log(num2);
+
+let num3 = 1;
+num3 /= 11;
+console.log(num3);
+
+let num4 = 1;
+num4++;
+console.log(num4);
+
+let num5 = 1;
+num5--;
+console.log(num5);
 
 
 
